@@ -1,0 +1,45 @@
+CREATE TABLE clientes(
+id int(255) AUTO_INCREMENT,
+nome varchar(50) NOT NULL,
+email varchar(50) NOT NULL,
+celular varchar(50),
+cidade varchar(50) NOT NULL,
+PRIMARY KEY (id)
+);
+
+CREATE TABLE usuarios(
+id int(255) AUTO_INCREMENT,
+email varchar(50) NOT NULL,
+senha varchar(50),
+PRIMARY KEY (id)
+);
+
+//clienteshtc
+CREATE TABLE clientes(
+id int(255) AUTO_INCREMENT,
+empresa varchar(255) NOT NULL,
+site varchar(255) NOT NULL,
+contato varchar(255) NOT NULL,
+fone varchar(255) NOT NULL,
+cidade varchar(255) NOT NULL,
+datacontato DATE NOT NULL,
+email varchar(255) NOT NULL,
+anotacoes varchar(255) NOT NULL,
+status varchar(255) NOT NULL,
+PRIMARY KEY (id)
+);
+
+
+// DB
+define('DB_DRIVER', 'mysqli');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'htcrepar_user');
+define('DB_PASSWORD', 'Repa@@2#Repa');
+define('DB_DATABASE', 'htcrepar_base');
+define('DB_PORT', '3306');
+define('DB_PREFIX', 'oc_');
+
+//Plesk painel de controle site htc
+https://us131-pl.valueserver.net:8443/
+htcrepar
+Xg2oz543ZiE](B
