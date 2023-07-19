@@ -1,8 +1,31 @@
-# Sistema de cadastro
-- Tela de Login
-- Cadastro
-- Sessões
+# Sistema de cadastro com Login utilizando PHP e MySQl
+- Criação de Registros
 - Listagem de Registros
 - Edição de Registros
 - Deleção de Registros
-- Pesquisa
+- Pesquisa de Registros
+- Telas Responsivas
+- Login
+- Sessões
+  
+# Instruções
+
+- Instale o Xampp e inicie o Apache e o MySQL server, copie o conteudo da pasta src para a pasta htdocs do Xampp.
+- Criação do Banco de dados abra o phpmyadmin "http://localhost/phpmyadmin/" crie um banco chamado "clientes" entre no menu sql e use os scripts disponiveis em mysql.txt para criação do banco de dados.
+
+# Imagens do Sistema
+
+- Tela de Login
+<img src="https://github.com/HeltonEng/crudWeb/blob/main/img/Login.jpeg"/>
+
+- Tela de Listagem
+<img src="https://github.com/HeltonEng/crudWeb/blob/main/img/crudMob.jpeg"/>
+
+- Tela de Busca
+<img src="https://github.com/HeltonEng/crudWeb/blob/main/img/buscaMob.jpeg"/>
+
+- Tela de Cadastro 
+<img src="https://github.com/HeltonEng/crudWeb/blob/main/img/cadastroMob.jpeg"/>
+
+- Tela de Edição
+<img src="https://github.com/HeltonEng/crudWeb/blob/main/img/editaMob.jpeg"/>
