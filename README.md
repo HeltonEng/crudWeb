@@ -11,7 +11,7 @@
 # Instruções
 
 - Instale o Xampp e inicie o Apache e o MySQL server, copie o conteudo da pasta src para a pasta htdocs do Xampp.
-- Criação do Banco de dados abra o phpmyadmin "http://localhost/phpmyadmin/" crie um banco chamado "clientes" entre no menu sql e use os scripts disponiveis em mysql.txt para criação do banco de dados.
+- Criação do Banco de dados abra o phpmyadmin "http://localhost/phpmyadmin/" crie um banco chamado "clientes", então em importar e abra o arquivo clientes.sql da pasta sql e faça a importação.
 
 # Imagens do Sistema
 
